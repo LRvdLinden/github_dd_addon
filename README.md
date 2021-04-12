@@ -45,11 +45,11 @@ Shows issues, pull requests, and more from your github repositories
        show_github_icon: true
        type: 'custom:github-card'
        entities:
-         - sensor.url1
-         - sensor.url2     
+         - sensor.path
+         - sensor.path    
 ```
 - add the correct `sensor` to monitor
-- add the `icon:` that you want to have
+
 
 ## Options
 ---
