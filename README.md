@@ -1,6 +1,6 @@
 # Github Dwains Dashboard Add-on (more_page)
-Github monitoring in Home Assistant Dwains Dashboard
-Show issues, pull requests, and more for your github repositories
+Github monitoring in Home Assistant Dwains Dashboard.
+Shows issues, pull requests, and more from your github repositories
 ##### Created by [Léon van der Linden](https://github.com/LRvdLinden)
 ##### v1.0.0
 
