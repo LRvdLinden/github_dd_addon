@@ -5,10 +5,12 @@ Github monitoring in Home Assistant Dwains Dashboard
 
 ![github](https://cryptonavia-showcase-production-media.s3.amazonaws.com/media/images/github-logo-770x515.original.width-1000.jpg)
 
-### Prerequisite
+## Prerequisite
+---
 - Make sure you have installed the lovelace [github-card](https://github.com/ljmerza/github-card). This can be done manually or directly via hacs
 
-### Make Home Assistant integration 
+## Make Home Assistant integration 
+---
 - Make the integration with [Github in Home Assistant](https://www.home-assistant.io/integrations/github/)
 - Restart Home Assistant
  ```yaml
@@ -21,7 +23,8 @@ Github monitoring in Home Assistant Dwains Dashboard
 ```
 - Restart Home Assistant
 
-### Installation Add-on
+## Installation Add-on
+---
 - Copy the `github` folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
  ```yaml
@@ -32,7 +35,8 @@ Github monitoring in Home Assistant Dwains Dashboard
 ```
 - Reload the theme configuration via Theme Settings
 
-### Replace the following
+## Replace the following
+---
  ```yaml
    cards:
      - title: Github
@@ -56,5 +60,6 @@ Github monitoring in Home Assistant Dwains Dashboard
 | show_github_icon | boolean | **Optional** | `true` Show/hide Github icon
 
 
-### Result
+## Result
+---
 ![uptimerobot](https://user-images.githubusercontent.com/77990847/114383489-e59e8f80-9b8d-11eb-838f-a3caa9539f61.png)
