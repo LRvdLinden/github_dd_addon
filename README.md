@@ -1,5 +1,5 @@
-# UptimeRobot Dwains Dashboard Add-on (more_page)
-UptimeRobot monitoring in Home Assistant Dwains Dashboard
+# Github Dwains Dashboard Add-on (more_page)
+Github monitoring in Home Assistant Dwains Dashboard
 ##### Created by [Léon van der Linden](https://github.com/LRvdLinden)
 ##### v1.0.0
 
