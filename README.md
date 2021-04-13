@@ -94,3 +94,7 @@ Shows issues, pull requests, and more from your github repositories</p>
 ---
 ![unknown](https://user-images.githubusercontent.com/77990847/114535571-7c338500-9c50-11eb-88ff-4d3e5d5911ca.png)
 
+---
+Enjoy my card? Help me out for a couple of :beers: or a :coffee:!
+
+[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/LRvdLinden)
