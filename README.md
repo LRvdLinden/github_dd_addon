@@ -25,7 +25,7 @@ Shows issues, pull requests, and more from your github repositories</p>
   <img src="https://cryptonavia-showcase-production-media.s3.amazonaws.com/media/images/github-logo-770x515.original.width-1000.jpg" />
 </p>
 
-[![Github][github]][maintainer]
+
 
 ## Prerequisite
 ---
