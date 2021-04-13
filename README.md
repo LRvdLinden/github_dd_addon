@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
   </a>
     </a>
-    <a href="https://discord.com/channels/688401603811999885/">
+    <a href="https://discord.gg/7yt64uX">
     <img src="https://img.shields.io/discord/688401603811999885" />
   </a>
 </p>
