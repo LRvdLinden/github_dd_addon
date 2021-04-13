@@ -13,6 +13,9 @@
   <a href="https://github.com/LRvdLinden/github_dd_addon">
     <img src="https://img.shields.io/github/commit-activity/m/LRvdLinden/agithub_dd_addon" />
   </a>
+      <a href="https://github.com/LRvdLinden/github_dd_addon">
+    <img src="https://img.shields.io/github/downloads/LRvdLinden/github_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
+  </a>
 </p>
 <p align="center">Github monitoring in Home Assistant Dwains Dashboard.
 Shows issues, pull requests, and more from your github repositories</p>
