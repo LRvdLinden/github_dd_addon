@@ -17,7 +17,7 @@
 <p align="center">Github monitoring in Home Assistant Dwains Dashboard.
 Shows issues, pull requests, and more from your github repositories</p>
 
-<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
+<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a> based on <a href="https://github.com/ljmerza/github-card">Github-card</a> created by <a href="https://github.com/ljmerza">ljmerza</a>
 </p> 
 
 <p align="center">
