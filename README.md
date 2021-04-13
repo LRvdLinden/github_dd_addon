@@ -20,7 +20,10 @@ Shows issues, pull requests, and more from your github repositories</p>
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
 </p> 
 
-![github](https://cryptonavia-showcase-production-media.s3.amazonaws.com/media/images/github-logo-770x515.original.width-1000.jpg)
+<p align="center">
+  <img src="https://cryptonavia-showcase-production-media.s3.amazonaws.com/media/images/github-logo-770x515.original.width-1000.jpg" />
+</p>
+
 
 ## Prerequisite
 ---
