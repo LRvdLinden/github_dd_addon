@@ -1,8 +1,24 @@
-# Github Dwains Dashboard Add-on (more_page)
-Github monitoring in Home Assistant Dwains Dashboard.
-Shows issues, pull requests, and more from your github repositories
-##### Created by [Léon van der Linden](https://github.com/LRvdLinden)
-##### v1.0.0
+<h1 align="center">Github Dwains Dashboard Add-on (more_page)</h1>
+
+<p align="center">
+  <a href="https://dwainscheeren.github.io/dwains-lovelace-dashboard/">
+    <img src="https://img.shields.io/badge/Dwains%20Dashboard-Default-orange.svg" />
+  </a>
+  <a href="https://github.com/custom-components/hacs">
+    <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
+  </a>
+  <a href="https://github.com/LRvdLinden/github_dd_addon">
+    <img src="https://img.shields.io/github/v/release/LRvdLinden/github_dd_addon" />
+  </a>
+  <a href="https://github.com/LRvdLinden/github_dd_addon">
+    <img src="https://img.shields.io/github/commit-activity/m/LRvdLinden/agithub_dd_addon" />
+  </a>
+</p>
+<p align="center">Github monitoring in Home Assistant Dwains Dashboard.
+Shows issues, pull requests, and more from your github repositories</p>
+
+<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
+</p> 
 
 ![github](https://cryptonavia-showcase-production-media.s3.amazonaws.com/media/images/github-logo-770x515.original.width-1000.jpg)
 
