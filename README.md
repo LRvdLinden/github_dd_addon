@@ -69,13 +69,28 @@ Shows issues, pull requests, and more from your github repositories</p>
 ---
  ```yaml
    cards:
-     - title: Github
-       show_extended: true
-       show_github_icon: true
-       type: 'custom:github-card'
-       entities:
-         - sensor.path
-         - sensor.path    
+     - type: 'custom:github-flexi-card'
+       title: Github LRvdLinden
+       secondary_info: '{latest_release_tag}'
+       url: true
+       attribute_urls: true
+       attributes:
+         - views
+         - stargazers
+         - open_issues
+         - clones
+         - forks
+         - open_pull_requests
+      sort:
+        - by: stargazers
+        - by: views_unique
+          ascending: true
+      entities:
+        - sensor.automations_dashboard_dwains_add_on
+        - sensor.birthday_dwains_add_on
+        - sensor.github_dwains_add_on
+        - sensor.uptimerobot_dwains_add_on
+        - sensor.uptimerobot_lovelace_card
 ```
 - add the correct `sensor` to monitor
 
