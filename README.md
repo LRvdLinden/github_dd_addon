@@ -143,7 +143,7 @@ Shows issues, pull requests, and more from your github repositories</p>
 type: 'custom:github-flexi-card'
 title: Github projects
 entities:
-  - entity: sensor.battery_state_card
+  - entity: sensor.github_dwains_add_on
     secondary_info: 'Released {latest_release_tag}'
     url: "{latest_release_url}" # url taken from attribute
     attributes:
@@ -184,7 +184,7 @@ show_header_toggle: false
 entities:
   - sensor.home_assistant_v2_db
   - type: 'custom:github-entity'
-    entity: sensor.battery_state_card
+    entity: sensor.github_dwains_add_on
     secondary_info: 'Released {latest_release_tag}'
     url: true
     attribute_urls: true
