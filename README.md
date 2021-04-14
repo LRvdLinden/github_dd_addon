@@ -135,7 +135,8 @@ Shows issues, pull requests, and more from your github repositories</p>
 
 ## Result
 ---
-![unknown](https://user-images.githubusercontent.com/77990847/114535571-7c338500-9c50-11eb-88ff-4d3e5d5911ca.png)
+![voorbeeld github](https://user-images.githubusercontent.com/77990847/114712144-0c94c700-9d30-11eb-8737-23c7891f5b56.png)
+
 
 ---
 Enjoy my card? Help me out for a couple of :beers: or a :coffee:!
