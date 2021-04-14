@@ -25,7 +25,7 @@
 Shows issues, pull requests, and more from your github repositories</p>
 
 
-<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a> based on <a href="https://github.com/ljmerza/github-card">Github-card</a> created by <a href="https://github.com/maxwroc/github-flexi-card">Maxwroc</a>
+<p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a> based on <a href="https://github.com/LRvdLinden/github-flexi-card">github-flexi-card</a> created by <a href="https://github.com/maxwroc">Maxwroc</a>
 </p> 
 
 
@@ -37,7 +37,7 @@ Shows issues, pull requests, and more from your github repositories</p>
 
 ## Prerequisite
 ---
-- Make sure you have installed the lovelace [Github github-flexi-card](https://github.com/LRvdLinden/github-flexi-card). This can be done manually or directly via hacs
+- Make sure you have installed the lovelace [github-flexi-card](https://github.com/LRvdLinden/github-flexi-card). This can be done manually or directly via hacs
 
 ## Make Home Assistant integration 
 ---
