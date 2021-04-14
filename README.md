@@ -49,8 +49,8 @@ Shows issues, pull requests, and more from your github repositories</p>
        - platform: github
          access_token: !secret github_access_token
          repositories:
-           - path: 'LRvdLinden/automations_dd_addon'
-             name: Automations Dashboard Dwains Add-on
+           - path: 'LRvdLinden/automations_dd_addon' #path Github URL
+             name: Automations Dashboard Dwains Add-on #custom name sensor
 ```
 - Restart Home Assistant
 
