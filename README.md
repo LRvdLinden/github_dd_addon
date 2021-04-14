@@ -93,6 +93,7 @@ Shows issues, pull requests, and more from your github repositories</p>
         - sensor.uptimerobot_dwains_add_on
         - sensor.uptimerobot_lovelace_card
 ```
+- change `title` of the card
 - add the correct `sensor` to monitor
 
 
@@ -132,6 +133,167 @@ Shows issues, pull requests, and more from your github repositories</p>
 |:-----|:-----|:-----|:-----|:-----|
 | by | string | **(required)** | v1.0.0 | Name of the attribute
 | ascending | bool | `false` | v1.0.0 | Whether to sort ascending or descending
+
+## Configuration examples
+---
+
+### Card
+
+```yaml
+type: 'custom:github-flexi-card'
+title: Github projects
+entities:
+  - entity: sensor.battery_state_card
+    secondary_info: 'Released {latest_release_tag}'
+    url: "{latest_release_url}" # url taken from attribute
+    attributes:
+      - name: views
+        url: true # default url to graphs/traffic
+      - name: stargazers
+      - name: open_issues
+      - name: clones
+        url: "https://my.custom.url/path"
+      - name: forks
+      - name: open_pull_requests
+        url: "{latest_open_pull_request_url}" # url taken from attribute
+  - entity: sensor.hideseek_mod
+    url: true # default url - repo homepage
+    attributes:
+      - views
+      - stargazers
+      - forks
+  - entity: sensor.urleditorpro
+    name: 'Url Editor Pro (v{latest_release_tag})'
+    secondary_info: 'Clones: {clones}'
+    attributes:
+      - views
+      - stargazers
+      - open_issues
+```
+
+### Entity
+
+Note: different type has to be used `custom:github-entity`
+
+![image](https://user-images.githubusercontent.com/8268674/96303544-7be46500-0ff2-11eb-9a86-16af9c52f1d0.png)
+
+```yaml
+type: entities
+title: Displayed as entity
+show_header_toggle: false
+entities:
+  - sensor.home_assistant_v2_db
+  - type: 'custom:github-entity'
+    entity: sensor.battery_state_card
+    secondary_info: 'Released {latest_release_tag}'
+    url: true
+    attribute_urls: true
+    attributes:
+      - views
+      - stargazers
+      - open_issues
+      - clones
+      - forks
+      - open_pull_requests
+  - sensor.hassio_online
+  - sensor.last_boot
+  - sensor.processor_use
+```
+
+### Card-level entity properties
+
+Card-level entity properties are useful when you want to have same settings for all of the entities.
+
+![image](https://user-images.githubusercontent.com/8268674/96266114-30b05f00-0fbe-11eb-9d10-f9b9e5dfc1cf.png)
+
+```yaml
+type: 'custom:github-flexi-card'
+title: Card-level entity properties
+secondary_info: 'Released {latest_release_tag}'
+url: true
+attribute_urls: true
+attributes:
+  - views
+  - stargazers
+  - open_issues
+  - clones
+  - forks
+  - open_pull_requests
+entities:
+  - sensor.battery_state_card
+  - sensor.hideseek_mod
+  - sensor.urleditorpro
+```
+
+### Labels instead of icons
+
+![image](https://user-images.githubusercontent.com/8268674/96354074-37c49380-10ca-11eb-9151-829e5c37f877.png)
+
+```yaml
+type: 'custom:github-flexi-card'
+title: Labels instead of icons
+url: true
+attribute_urls: true
+attributes:
+  - name: views
+    label: Views
+  - name: stargazers
+    label: Stars
+  - name: open_issues
+    label: Issues
+entities:
+  - sensor.battery_state_card
+  - sensor.hideseek_mod
+  - sensor.urleditorpro
+```
+
+### Compact view (disabling)
+
+![image](https://user-images.githubusercontent.com/8268674/96794344-eda71f00-13f5-11eb-85f2-f60caad2fa63.png)
+
+```yaml
+type: 'custom:github-flexi-card'
+title: Big icons
+url: true
+attribute_urls: true
+attributes:
+  - views
+  - stargazers
+entities:
+  - sensor.battery_state_card
+  - entity: sensor.hideseek_mod
+    compact_view: false
+  - sensor.urleditorpro
+```
+
+### Sorting
+
+![image](https://user-images.githubusercontent.com/8268674/96928429-72ef0a00-14b0-11eb-95dd-4f1c76e217ec.png)
+
+```yaml
+type: 'custom:github-flexi-card'
+title: Sort by starts and views (asc)
+secondary_info: '{latest_release_tag}'
+url: true
+attribute_urls: true
+attributes:
+  - views_unique
+  - stargazers
+  - open_issues
+  - open_pull_requests
+sort:
+  - by: stargazers
+  - by: views_unique
+    ascending: true
+entities:
+  - sensor.battery_state_card
+  - sensor.hideseek_mod
+  - sensor.github_flexi_card
+  - sensor.urleditorpro
+  - entity: sensor.home_assistant_config
+    secondary_info: null
+```
+
 
 ## Result
 ---
