@@ -97,13 +97,37 @@ Shows issues, pull requests, and more from your github repositories</p>
 
 ## Options
 ---
-| Name | Type | Requirement | `Default` Description
-| :---- | :---- | :------- | :----------- |
-| title | string | **Optional** | `Github` Change card title
-| entities | list | **Required** | List of github sensors to display
-| show_extended | boolean | **Optional** | `true` Show/hide tags, forks, and commits links
-| show_github_icon | boolean | **Optional** | `true` Show/hide Github icon
+### Entity
+| Name | Type | Default | Since | Description |
+|:-----|:-----|:-----|:-----|:-----|
+| entity | string | **(required)** | v0.1.0 | Entity ID e.g. `sensor.my_github_project`
 
+
+### Entity Properties
+| Name | Type | Default | Since | Description |
+|:-----|:-----|:-----|:-----|:-----|
+| name | [KString](#keywordstring) | `friendly_name` | v0.1.0 | Name override
+| secondary_info | [KString](#keywordstring) |  | v0.1.0 | String to display underneath the entity name
+| attributes | list([Attribute](#attribute)) |  | v0.1.0 | Attributes to display
+| url | [KString](#keywordstring) \| bool |  | v0.2.0 | Url to open on click/tap. (when `true` is used the target url becomes repo homepage)
+| attribute_urls | bool |  | v0.2.0 | When set to `true` turns on default urls for all the displayed attributes
+| icon | string | `"mdi:github"` | v0.2.0 | Override for entity icon
+| compact_view | bool | `true` | v1.0.0 | When set to `false` big icons (and values) are displayed
+
+### Attribute
+| Name | Type | Default | Since | Description |
+|:-----|:-----|:-----|:-----|:-----|
+| name | string | **(required)** | v0.1.0 | Name of the attribute
+| icon | string |  | v0.1.0 | Icon override (there are default icons for most of the available attributes)
+| url | [KString](#keywordstring) \| bool |  | v0.2.0 | Url to open on click/tap. (there are default urls for most of the available attributes, so you can just use `true`)
+| label | [KString](#keywordstring) |  | v0.5.0 | Label/text which will be shown instead of the icon
+
+### Sort options
+
+| Name | Type | Default | Since | Description |
+|:-----|:-----|:-----|:-----|:-----|
+| by | string | **(required)** | v1.0.0 | Name of the attribute
+| ascending | bool | `false` | v1.0.0 | Whether to sort ascending or descending
 
 ## Result
 ---
