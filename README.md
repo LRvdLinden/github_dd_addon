@@ -37,7 +37,7 @@ Shows issues, pull requests, and more from your github repositories</p>
 
 ## Prerequisite
 ---
-- Make sure you have installed the lovelace [github-card](https://github.com/ljmerza/github-card). This can be done manually or directly via hacs
+- Make sure you have installed the lovelace [Github github-flexi-card](https://github.com/LRvdLinden/github-flexi-card). This can be done manually or directly via hacs
 
 ## Make Home Assistant integration 
 ---
