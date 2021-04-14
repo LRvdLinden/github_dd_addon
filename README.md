@@ -96,10 +96,11 @@ Shows issues, pull requests, and more from your github repositories</p>
 - add the correct `sensor` to monitor
 
 
-![image](https://user-images.githubusercontent.com/8268674/97019224-fad42300-1547-11eb-8153-46c401f50455.png)
-
 ## Options
 ---
+
+![image](https://user-images.githubusercontent.com/8268674/97019224-fad42300-1547-11eb-8153-46c401f50455.png)
+
 ### Entity
 | Name | Type | Default | Since | Description |
 |:-----|:-----|:-----|:-----|:-----|
