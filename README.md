@@ -55,7 +55,29 @@ Shows issues, pull requests, and more from your github repositories</p>
            - path: 'LRvdLinden/automations_dd_addon' #path Github URL
              name: Automations Dashboard Dwains Add-on #custom name sensor
 ```
-- Restart Home Assistant
+- You can use also the example sensoren
+
+## Example sensoren
+---
+ ```yaml
+## DWAINS DASHBOARD        
+      - path: 'dwainscheeren/dwains-lovelace-dashboard'
+        name: Dwains Dashboard
+      - path: 'dwainscheeren/dwains-dashboard-addons'
+        name: Dwains Dashboard addons       
+        
+## HOME ASSISTANT        
+      - path: 'home-assistant/core'
+        name: Home Assistant Core
+      - path: 'home-assistant/supervisor'
+        name: Home Assistant Supervisor 
+      - path: 'home-assistant/home-assistant.io'
+        name: Home Assistant Website
+      - path: 'home-assistant/frontend'
+        name: Home Assistant Fronted
+      - path: 'home-assistant/operating-system'
+        name: Home Assistant OS
+```
 
 ## Installation Add-on
 ---
