@@ -4,11 +4,11 @@
   <a href="https://dwainscheeren.github.io/dwains-lovelace-dashboard/">
     <img src="https://img.shields.io/badge/Dwains%20Dashboard-Default-299ec2.svg" />
   </a>
-  <a href="https://github.com/custom-components/hacs">
-    <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
-  </a>
   <a href="https://github.com/LRvdLinden/github_dd_addon">
     <img src="https://img.shields.io/github/v/release/LRvdLinden/github_dd_addon" />
+  </a>
+      <a href="https://github.com/LRvdLinden/github_dd_addon/commits">
+    <img src="https://img.shields.io/github/last-commit/LRvdLinden/github_dd_addon.svg?style=plasticr" />
   </a>
       <a href="https://github.com/LRvdLinden/github_dd_addon">
     <img src="https://img.shields.io/github/downloads/LRvdLinden/github_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
